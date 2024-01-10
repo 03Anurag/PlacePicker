@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/PlacePicker/static/css/main.0828e43e.css",
+    "main.js": "/PlacePicker/static/js/main.ac0e128f.js",
+    "static/media/rainforest.jpg": "/PlacePicker/static/media/rainforest.85a82d84b2ad2269da1f.jpg",
+    "static/media/parisian-streets.jpg": "/PlacePicker/static/media/parisian-streets.497aa0072bf6d9c31461.jpg",
+    "static/media/amazon-river.jpg": "/PlacePicker/static/media/amazon-river.b89a2e76cfd994ca56c6.jpg",
+    "static/media/ruins.jpg": "/PlacePicker/static/media/ruins.12968bc8877974a4e64e.jpg",
+    "static/media/venetian-canals.jpg": "/PlacePicker/static/media/venetian-canals.f99840fcf7d4797379dd.jpg",
+    "static/media/caribbean-beach.jpg": "/PlacePicker/static/media/caribbean-beach.c31bfcb999e6070df68c.jpg",
+    "static/media/great-barrier-reef.jpg": "/PlacePicker/static/media/great-barrier-reef.ded255d8990f9c43d720.jpg",
+    "static/media/forest-waterfall.jpg": "/PlacePicker/static/media/forest-waterfall.dba9a8de2b738e785bec.jpg",
+    "static/media/kerala-backwaters.jpg": "/PlacePicker/static/media/kerala-backwaters.3e7dcc4da30b055808c6.jpg",
+    "static/media/victoria-falls.jpg": "/PlacePicker/static/media/victoria-falls.ce9427ffd59e5b2ce5d1.jpg",
+    "static/media/majestic-mountains.jpg": "/PlacePicker/static/media/majestic-mountains.acf21deafe4332d7131b.jpg",
+    "static/media/taj-mahal.jpg": "/PlacePicker/static/media/taj-mahal.780ee87ef77247665fb4.jpg",
+    "static/media/african-savanna.jpg": "/PlacePicker/static/media/african-savanna.97e024834e50ba789f07.jpg",
+    "static/media/machu-picchu.jpg": "/PlacePicker/static/media/machu-picchu.1570cd0becade4741210.jpg",
+    "static/media/grand-canyon.jpg": "/PlacePicker/static/media/grand-canyon.36b11da74358f0651611.jpg",
+    "static/media/northern-lights.jpg": "/PlacePicker/static/media/northern-lights.2efd74f985c3bd0501cd.jpg",
+    "static/media/japanese-temple.jpg": "/PlacePicker/static/media/japanese-temple.e516510e6e1f78ab7f1e.jpg",
+    "static/media/desert-dunes.jpg": "/PlacePicker/static/media/desert-dunes.7d48864ad2e1d755f0d2.jpg",
+    "static/media/logo.png": "/PlacePicker/static/media/logo.78b2cba2432166f8af72.png",
+    "index.html": "/PlacePicker/index.html",
+    "main.0828e43e.css.map": "/PlacePicker/static/css/main.0828e43e.css.map",
+    "main.ac0e128f.js.map": "/PlacePicker/static/js/main.ac0e128f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0828e43e.css",
+    "static/js/main.ac0e128f.js"
+  ]
+}
