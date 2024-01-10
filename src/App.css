@@ -1,38 +1,195 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,700&family=Raleway:wght@400;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: #defaf8;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  padding: 2rem;
+  background: linear-gradient(180deg, #1f1c2c 0%, #1f1c2c 100%);
+}
+
+header{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header img{
+  width: 5rem;
+  height: 5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header h1{
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header p{
+  font-size: 1.15rem;
+  color: #9eb5b4;
+  max-width: 25rem;
+  margin: 0 auto;
+}
+
+.places-category{
+  max-width: 85rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 2px solid #0d373e;
+  border-radius: 8px;
+}
+
+.places-category h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #8feeff;
+  text-align: center;
+}
+
+.fallback-text{
+  text-align: center;
+}
+
+.places{
+  max-width: 80rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+}
+
+.place-item{
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 8px;
+  background: #1f1c2c;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
 }
 
-.App-link {
-  color: #61dafb;
+.place-item button{
+  height: 250px;
+  max-width: 350px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.place-item:nth-child(odd) button:hover,
+.place-item:nth-child(odd) button:focus{
+  box-shadow: 0 0 8px 4px rgba(255,217,0,0.6);
+  border-radius: 8px;
+  transform: rotate(5deg);
+}
+.place-item:nth-child(even) button:hover,
+.place-item:nth-child(even) button:focus{
+  box-shadow: 0 0 8px 4px rgba(255,217,0,0.6);
+  border-radius: 8px;
+  transform: rotate(-5deg);
+}
+
+.place-item img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.place-item h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  letter-spacing: 3px;
+  font-size: 0.9rem;
+  position: absolute;
+  bottom: 0;
+  right: 1rem;
+  margin: 1rem auto;
+  background-color: #feee86;
+  border-radius: 4px;
+  padding: 0.15rem 0.35rem;
+}
+
+.modal{
+  max-width: 30rem;
+  width: 100%;
+  z-index: 2;
+  background-color: #d5c7bc;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+#delete-confirmation{
+  padding: 1rem;
+}
+
+#delete-confirmation h2{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  color: #5d0909;
+}
+
+#delete-confirmation p{
+  margin: 1rem auto 0;
+  font-size: 1.15rem;
+  max-width: 38ch;
+  color: #804242;
+}
+
+#confirmation-actions{
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.button{
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: #5d0909;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  color: #fff;
+}
+
+.button-text{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  color: #5d0909;
+}
+
+
+@media (max-width:500px){
+  header h1{
+    font-size: 2rem;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width:430px){
+  header h1{
+    font-size: 1.7rem;
   }
 }
